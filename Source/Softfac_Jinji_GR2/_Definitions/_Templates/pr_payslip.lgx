@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Template ID="pr_Payslip" SavedBy="winson.ooi" SavedAt="2/25/2013 11:18:19 AM" EngineVersion="8.0.30">
+	<PdfForm PdfFormTemplateFilename="E-Payslip_TFP.pdf" ID="E-Payslip_TFP" PdfFormMode="OneFormPerDataRow" FlattenFields="True">
+		<PdfFormField ID="txtEARNING" Name="txtEARNING" Value="@Data.OCP_Name_Allowance~"/>
+		<PdfFormField ID="txtEARNINGRM" Name="txtEARNINGRM" Value="@Data.Allowance_Amount~" Format="########0.00"/>
+		<PdfFormField ID="txtDEDUCTIONRM" Name="txtDEDUCTIONRM" Value="@Data.Deduction_Amount~" Format="########0.00"/>
+		<PdfFormField ID="txtDEDUCTION" Name="txtDEDUCTION" Value="@Data.OCP_Name_Deduction~"/>
+		<PdfFormField ID="txtNRIC" Name="txtNRIC" Value="@Data.identity_card_no~"/>
+		<PdfFormField ID="txtEMPNAME" Name="txtEMPNAME" Value="@Data.Name~"/>
+		<PdfFormField ID="txtEPFER" Name="txtEPFER" Value="@Data.EPF_ER~" Format="########0.00"/>
+		<PdfFormField ID="txtSOCSOER" Name="txtSOCSOER" Value="@Data.SOCSO_ER~" />
+		<PdfFormField ID="txtGROSSRM" Name="txtGROSSRM" Value="@Data.Total_Allowance_Amount~" Format="########0.00"/>
+		<PdfFormField ID="txtNETPAY" Name="txtNETPAY" Value="@Data.Total_Nett_Pay~" Format="########0.00"/>
+		<PdfFormField ID="txtPRINTDATE" Name="txtPRINTDATE" Value="Print Date :@Data.PrintDate~"/>
+		<PdfFormField ID="txtTYPE" Name="txtTYPE" Value="@Data.option_pay_type~"/>
+		<PdfFormField ID="txtDIVISION" Name="txtDIVISION" Value="@Data.company_profile_code~"/>
+		<PdfFormField Name="txtPAYBY" ID="txtPAYBY" Value="@Data.Option_Pay_Mode~"/>
+		<PdfFormField Name="txtDEPT" ID="txtDEPT" Value="@Data.Department~"/>
+		<PdfFormField Name="txtBANKACCOUNTNO" ID="txtBANKACCOUNTNO" Value="@Data.bank_account_number~"/>
+		<PdfFormField Name="txtYTDBASIC" ID="txtYTDBASIC" Value="@Data.YTD_Basic_Salary~" Format="########0.00"/>
+		<PdfFormField Name="txtYTDBONUS" ID="txtYTDBONUS" Value="@Data.YTD_Bonus~" Format="########0.00"/>
+		<PdfFormField Name="txtYTDOT" ID="txtYTDOT" Value="@Data.YTD_OverTime~" Format="########0.00"/>
+		<PdfFormField Name="txtYTDALLOWANCE" ID="txtYTDALLOWANCE" Value="@Data.YTD_Allowance~" Format="########0.00"/>
+		<PdfFormField Name="txtYTDALEAVE" ID="txtYTDALEAVE" Value="@Data.YTD_Pay_Back_Leave~" Format="########0.00"/>
+		<PdfFormField Name="txtYTDDEDUCTION" ID="txtYTDDEDUCTION" Value="@Data.YTD_Deduction~" Format="########0.00"/>
+		<PdfFormField Name="txtYTDEPFEE" ID="txtYTDEPFEE" Value="@Data.YTD_EPF_EE~" Format="########0.00"/>
+		<PdfFormField Name="txtYTDSOCSOEE" ID="txtYTDSOCSOEE" Value="@Data.YTD_SOCSO_EE~" />
+		<PdfFormField Name="txtYTDEPFER" ID="txtYTDEPFER" Value="@Data.YTD_EPF_ER~" Format="########0.00"/>
+		<PdfFormField Name="txtYTDSOCSOER" ID="txtYTDSOCSOER" Value="@Data.YTD_SOCSO_ER~" />
+		<PdfFormField Name="txtYTDTAX" ID="txtYTDTAX" Value="@Data.YTD_PCB~" Format="########0.00"/>
+		<PdfFormField Name="txtYTDDLEAVE" ID="txtYTDDLEAVE" Value="@Data.YTD_Deducted_Leave~" Format="########0.00"/>
+		<DataLayer Type="SP" ID="CallSP" ConnectionID="HCRMConnection" Command="sp_pr_RptEPayslipPDF">
+			<SPParameters>
+				<SPParameter SPParamDirection="Input" ID="Company_Profile_Code" SPParamSize="0" SPParamType="dt-200" Value="@Request.Company_Profile_Code~"/>
+				<SPParameter SPParamDirection="Input" ID="Month" SPParamSize="0" SPParamType="dt-200" Value="@Request.Month~"/>
+				<SPParameter SPParamDirection="Input" ID="Year" SPParamSize="0" SPParamType="dt-200" Value="@Request.Year~"/>
+				<SPParameter ID="spid" SPParamDirection="Input" SPParamSize="0" SPParamType="dt-131" Value="@Request.spid~"/>
+				<SPParameter SPParamDirection="Input" ID="Type" SPParamSize="0" SPParamType="dt-200" Value="@Request.Group~"/>
+				<SPParameter SPParamDirection="Input" ID="User_Profile_Code" SPParamSize="0" SPParamType="dt-200" Value="@Request.User_Profile_Code~"/>
+			</SPParameters>
+			<CalculatedColumn Formula="@Data.Allowance_Amount~ - @Data.Deduction_Amount~" ID="Nett_Pay"/>
+			<GroupFilter ID="Groupby" Hierarchical="True" KeepGroupedRows="True" DataType="Text" GroupColumn="Name,code,company_profile_code,Department,identity_card_no,Option_Pay_Mode,YTD_Basic_Salary,YTD_Bonus,YTD_OverTime,YTD_Allowance,YTD_Deduction,YTD_Pay_Back_Leave,YTD_Deducted_Leave,YTD_EPF_EE,YTD_EPF_ER,YTD_SOCSO_EE,YTD_SOCSO_ER,YTD_PCB,YTD_CP38,EPF_ER,SOCSO_ER,bank_account_number,option_pay_type,PrintDate,PMonth">
+				<GroupAggregateColumn AggregateColumn="Deduction_Amount" AggregateFunction="SUM" ID="Total_Deduction_Amount"/>
+				<GroupAggregateColumn AggregateColumn="Allowance_Amount" AggregateFunction="SUM" ID="Total_Allowance_Amount"/>
+				<GroupAggregateColumn AggregateFunction="SUM" AggregateColumn="Nett_Pay" ID="Total_Nett_Pay"/>
+			</GroupFilter>
+			<SortFilter SortColumn="Allowance_Order" DataType="Number" ID="Allowance_Order" SortSequence="Ascending"/>
+		</DataLayer>
+		<PdfFormField Name="txtEMPID" ID="txtEMPID" Value="@Data.code~"/>
+		<PdfFormField Name="txtTOTALDEDUCTION" ID="txtTOTALDEDUCTION" Value="@Data.Total_Deduction_Amount~" Format="########0.00"/>
+		<PdfFormField Name="txtPAYMONTH" ID="txtPAYMONTH" Value="Payslip for @Data.PMonth~ @Request.Year~  "/>
+	</PdfForm>
+	<ideTestParams month="1" year="2008" OrganID="JAVA" paytype="" SPID="58" Option_Pay_Cycle="MONTHLY" PayType="MONTHLY" Paymode="BANK"/>
+</Template>

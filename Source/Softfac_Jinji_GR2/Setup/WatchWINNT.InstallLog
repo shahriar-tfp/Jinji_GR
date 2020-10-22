@@ -1,0 +1,342 @@
+﻿Installing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Installing service Email Alert Jinji...
+Service Email Alert Jinji has been successfully installed.
+Creating EventLog source Email Alert Jinji in log Application...
+Committing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Uninstalling assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Removing EventLog source Email Alert Jinji.
+Service Email Alert Jinji is being removed from the system...
+Service Email Alert Jinji was successfully removed from the system.
+Attempt to stop service Email Alert Jinji.
+Installing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Installing service Email Alert...
+Service Email Alert has been successfully installed.
+Creating EventLog source Email Alert in log Application...
+Committing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Uninstalling assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Removing EventLog source Email Alert.
+Service Email Alert is being removed from the system...
+Service Email Alert was successfully removed from the system.
+Attempt to stop service Email Alert.
+Installing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Installing service Email Alert...
+Service Email Alert has been successfully installed.
+Creating EventLog source Email Alert in log Application...
+Committing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Uninstalling assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Removing EventLog source Email Alert.
+Service Email Alert is being removed from the system...
+Service Email Alert was successfully removed from the system.
+Attempt to stop service Email Alert.
+Installing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Installing service Email Alert...
+Service Email Alert has been successfully installed.
+Creating EventLog source Email Alert in log Application...
+Committing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Uninstalling assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Removing EventLog source Email Alert.
+Service Email Alert is being removed from the system...
+Service Email Alert was successfully removed from the system.
+Attempt to stop service Email Alert.
+Installing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Installing service Email Alert...
+Service Email Alert has been successfully installed.
+Creating EventLog source Email Alert in log Application...
+Committing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Uninstalling assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Removing EventLog source Email Alert.
+Service Email Alert is being removed from the system...
+Service Email Alert was successfully removed from the system.
+Attempt to stop service Email Alert.
+Installing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Installing service Email Alert...
+Service Email Alert has been successfully installed.
+Creating EventLog source Email Alert in log Application...
+Committing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Uninstalling assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Removing EventLog source Email Alert.
+Service Email Alert is being removed from the system...
+Service Email Alert was successfully removed from the system.
+Installing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Installing service Email Alert...
+Service Email Alert has been successfully installed.
+Creating EventLog source Email Alert in log Application...
+Committing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Uninstalling assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Removing EventLog source Email Alert.
+Service Email Alert is being removed from the system...
+Service Email Alert was successfully removed from the system.
+Attempt to stop service Email Alert.
+Installing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Installing service Email Alert...
+Service Email Alert has been successfully installed.
+Creating EventLog source Email Alert in log Application...
+Committing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Uninstalling assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Removing EventLog source Email Alert.
+Service Email Alert is being removed from the system...
+Service Email Alert was successfully removed from the system.
+Attempt to stop service Email Alert.
+Installing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Installing service Email Alert...
+Service Email Alert has been successfully installed.
+Creating EventLog source Email Alert in log Application...
+Committing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Uninstalling assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Removing EventLog source Email Alert.
+Service Email Alert is being removed from the system...
+Service Email Alert was successfully removed from the system.
+Attempt to stop service Email Alert.
+Installing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Installing service Email Alert...
+Service Email Alert has been successfully installed.
+Creating EventLog source Email Alert in log Application...
+Committing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Uninstalling assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Removing EventLog source Email Alert.
+Service Email Alert is being removed from the system...
+Service Email Alert was successfully removed from the system.
+Attempt to stop service Email Alert.
+Installing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Installing service Email Alert...
+Service Email Alert has been successfully installed.
+Creating EventLog source Email Alert in log Application...
+Committing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Uninstalling assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Removing EventLog source Email Alert.
+Service Email Alert is being removed from the system...
+Service Email Alert was successfully removed from the system.
+Attempt to stop service Email Alert.
+Installing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Installing service Email Alert...
+Service Email Alert has been successfully installed.
+Creating EventLog source Email Alert in log Application...
+Committing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Uninstalling assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Removing EventLog source Email Alert.
+Service Email Alert is being removed from the system...
+Service Email Alert was successfully removed from the system.
+Attempt to stop service Email Alert.
+Installing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Installing service Email Alert...
+Service Email Alert has been successfully installed.
+Creating EventLog source Email Alert in log Application...
+Committing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Uninstalling assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Removing EventLog source Email Alert.
+Service Email Alert is being removed from the system...
+Service Email Alert was successfully removed from the system.
+Attempt to stop service Email Alert.
+Installing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Installing service Email Alert...
+Service Email Alert has been successfully installed.
+Creating EventLog source Email Alert in log Application...
+Committing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Uninstalling assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Removing EventLog source Email Alert.
+Service Email Alert is being removed from the system...
+Service Email Alert was successfully removed from the system.
+Attempt to stop service Email Alert.
+Installing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Installing service Email Alert...
+Service Email Alert has been successfully installed.
+Creating EventLog source Email Alert in log Application...
+Committing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Uninstalling assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Removing EventLog source Email Alert.
+Service Email Alert is being removed from the system...
+Service Email Alert was successfully removed from the system.
+Attempt to stop service Email Alert.
+Installing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog
+Installing service Email Alert...
+Service Email Alert has been successfully installed.
+Creating EventLog source Email Alert in log Application...
+Committing assembly 'D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.exe
+   logfile = D:\Application\Softfac_Jinji_TFP\Setup\WatchWINNT.InstallLog

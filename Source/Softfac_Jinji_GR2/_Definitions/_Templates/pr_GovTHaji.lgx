@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Template ID="pr_GovTHaji" SavedBy="Tester" SavedAt="2/1/2012 3:07:46 PM" EngineVersion="8.0.30">
+	<PdfForm PdfFormTemplateFilename="pr_GovTHaji.pdf" ID="pr_GovTHaji" PdfFormMode="OneFormPerDataRow">
+		<PdfFormField ID="txt_Cek_No" Name="txt_Cek_No" Value="@Data.Cheque~"/>
+		<PdfFormField ID="txt_Current_Date" Name="txt_Current_Date"/>
+		<PdfFormField ID="txt_Emp_IC_No" Name="txt_Emp_IC_No" Value="@Data.Identity_Card_No~"/>
+		<PdfFormField ID="txt_Emp_ID" Name="txt_Emp_ID" Value="@Data.Emp_ID~"/>
+		<PdfFormField ID="txt_Emp_Name" Name="txt_Emp_Name" Value="@Data.Emp_Name~"/>
+		<PdfFormField ID="txt_Emp_Status" Name="txt_Emp_Status" Value="@Data.Status~"/>
+		<PdfFormField ID="txt_Emp_TB_Amount" Name="txt_Emp_TB_Amount" Value="@Data.Employee_Credit~" Format="########0.00"/>
+		<PdfFormField ID="txt_Emp_TB_Grand_Total_Amount" Name="txt_Emp_TB_Grand_Total_Amount" Format="########0.00"/>
+		<PdfFormField ID="txt_Emp_TB_No" Name="txt_Emp_TB_No" Value="@Data.Tabung_Haji_No~"/>
+		<PdfFormField ID="txt_Emp_TB_Total_Amount" Name="txt_Emp_TB_Total_Amount" Format="########0.00" Value="@Data.Total_Amount~"/>
+		<PdfFormField ID="txt_Month" Name="txt_Month" Value="@Data.Month_text~"/>
+		<PdfFormField ID="txt_Number" Name="txt_Number" Value="@Data.Number~"/>
+		<PdfFormField ID="txt_PIC_Name" Name="txt_PIC_Name" Value="@Data.PIC~"/>
+		<PdfFormField ID="txt_Year" Name="txt_Year" Value="@Data.Year~"/>
+		<DataLayer Type="SP" ConnectionID="HCRMConnection" ID="CallSP" Command="sp_pr_RptTabungHaji">
+			<SPParameters>
+				<SPParameter SPParamDirection="Input" ID="RegNo" SPParamSize="0" SPParamType="dt-200" Value="@Request.RegNo~"/>
+				<SPParameter SPParamDirection="Input" ID="Month" SPParamSize="0" SPParamType="dt-3" Value="@Request.Month~"/>
+				<SPParameter SPParamDirection="Input" ID="Year" SPParamSize="0" SPParamType="dt-3" Value="@Request.Year~"/>
+				<SPParameter SPParamDirection="Input" ID="PIC" SPParamSize="0" SPParamType="dt-200" Value="@Request.PIC~"/>
+				<SPParameter SPParamDirection="Input" ID="Cheque" SPParamSize="0" SPParamType="dt-200" Value="@Request.Cheque~"/>
+			</SPParameters>
+			<SequenceColumn ID="Number"/>
+			<GroupFilter ID="GroupBy" Hierarchical="True" KeepGroupedRows="True" DataType="Text" GroupColumn="month,year,PIC,Cheque,Page_No">
+				<GroupAggregateColumn AggregateColumn="Employee_Credit" AggregateFunction="SUM" ID="Total_Amount"/>
+			</GroupFilter>
+		</DataLayer>
+	</PdfForm>
+	<ideTestParams RegNo="Softfac" Month="7" Year="2007" PIC="Ahmad" Cheque="1234"/>
+</Template>

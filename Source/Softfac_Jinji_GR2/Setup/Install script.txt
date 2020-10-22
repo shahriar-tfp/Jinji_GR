@@ -1,0 +1,4 @@
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\InstallUtil.exe  E:\Softfac_Jinji\Setup\WatchWINNT.exe
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\InstallUtil.exe -u E:\Softfac_Jinji\Setup\WatchWINNT.exe
+
+
